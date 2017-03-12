@@ -1,0 +1,17 @@
+body {
+	background-image: url("../images/space.jpg");
+}
+
+img {
+	width: 15%;
+	margin: 20px;
+	float: left;
+	border: 1px;
+	border-color: #fff;
+	display: inline;
+	border-style: solid;
+}
+
+#button {
+	margin: 60px;
+}
