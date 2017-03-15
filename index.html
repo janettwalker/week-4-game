@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Star Wars Game</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"></li>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"></li>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
@@ -12,43 +12,56 @@
 
 </head>
 <body>
+<header>Doctor Who Defender</header>
 
 	<div class = "container">
 		<div id = "mainCharacters">
 		<div class="row">
-		<div col-md-3>
+		<h3>Characters</h3>
+		<div id = "the-doctor">
 			<img src = "assets/images/the-doctor.jpg">
 
 		</div>
-		<div col-md-3>
+		<div id = "river-song">
 				<img src = "assets/images/river-song.jpg">
 		</div>
-		<div col-md-3>
+		<div id = "dalek">
 				<img src = "assets/images/dalek.jpg">
 		</div>
-		<div col-md-3>
+		<div id = "cyberman">
 				<img src = "assets/images/cyberman.jpg">
 		</div>
 			</ul>
 		</div>
 	</div>
 
-	<div class = "container" >
+	<div class = "characters" >
 		<div id = "yourCharacter">
+		<h3>Your Character</h3>
 		</div>
 	</div>
 
-	<div class = "container">
+	<div class = "opponents" >
+		<h3>Battle Opponent</h3>
+		<div id = "defender">
+		</div>
+	</div>
+
+	<div class = "fight">
 	 	<div id = "fightArea">
 	 	</div>
 	 </div>
 
-	<div id = "button danger">
-		<button type = "button" onclick="alert('Hello world!')">Attack!</button>
-	</div>
-	<div class = "container">
 
-	<div class = "container" >
+	<div id = "button">
+		<button type="button" class="btn btn-danger">Attack!</button>
+	</div>
+
+	<div class = "container">
+	</div>
+
+	<div class = "defend" >
+		<h3>Defender</h3>
 		<div id = "defender">
 		</div>
 	</div>

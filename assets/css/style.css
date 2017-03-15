@@ -3,8 +3,8 @@ body {
 }
 
 img {
-	width: 15%;
-	margin: 20px;
+	width: 20%;
+	margin: 10px;
 	float: left;
 	border: 1px;
 	border-color: #fff;
@@ -12,6 +12,35 @@ img {
 	border-style: solid;
 }
 
+h3 {
+	color: #fff;
+}
+
+header {
+	font-weight: bold;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+}
+
 #button {
 	margin: 60px;
 }
+
+.the-doctor {
+	background-image: url("../images/the-doctor.jpg");
+}
+
+.green {
+	border-style: solid;
+	border-color: green;
+	border: 1px;
+}
+
+.red {
+	border-style: solid;
+	border-color: red;
+	border: 1px;
+}
+
+
